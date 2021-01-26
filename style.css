@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* banner */
+
+.banner{
+    background: url(images/bg-img.jpg) ;
+    background-size: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* logo */
+
+#logo{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* navbar */
+#navbar-container{
+    width: 35%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style-type: none;
+}
+#navbar li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+.c-icon{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.438);
+    padding: 6.5px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.c-icon:hover{
+    transform: scale(1.5);
+}
+
+/* dropdown */
+.dropdown-content{
+    text-align: center;
+    
+}
+.sub-menu{
+    display: none;
+}
+
+.sub-menu li{
+    padding: 0px 0px 15px 0px;
+}
+.dropdown:hover .sub-menu{
+    display: inline-block;
+}
+    
+.title{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: #fff;
+    text-shadow: 2px 2px 12px black;
+}    
+
+.container2{
+    width: 70%;
+    height: 8rem;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 2px 5px 10px #000;
+    color: #000;
+}
+.date-picker1{
+    position: relative;
+    top: 50%;
+    left: 5%;
+    width: 12rem;
+    height: 2rem;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    color: #000;
+}
+.date-picker2{
+    position: relative;
+    top: 50%;
+    left: 8%;
+    width: 12rem;
+    height: 2rem;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    color: #000;
+}
+.date-picker1:hover, .date-picker2:hover{
+    border: 2px solid grey;
+}
+
+.no-of-person{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 21%;
+}
+#person{
+    color: #000;
+    width: 13rem;
+    height: 2rem;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#person option{
+    color: #000;
+}
+#person:hover{
+    border: 2px solid grey; 
+}
+#find-btn{
+    position: relative;
+    top: 50%;
+    left: 23%;
+    width: 15rem;
+    border: 1px solid rgb(18, 156, 126);
+    background-color: rgb(18, 156, 126);
+    border-radius: 10px;
+    height: 2rem;
+}
+
+/* services */
+.container3{
+    position: absolute;
+    top: 110%;
+}
+.container3 h2{
+    color: rgb(6, 122, 97);
+    margin: 0px 0px 0px 20px;
+    width: 100vw;
+}
+.services{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    
+}
+.service{
+    color: rgb(18, 156, 126);
+    width: 22.5%;
+    background-color: rgba(255, 255, 255, 0.438);
+    box-shadow:2px 5px 8px #000;
+    margin: 0px 20px;
+    height: auto;
+    text-align: justify;
+    
+}
+.service h3{
+    color: rgb(18, 156, 126);
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.service p{
+    color: rgb(18, 156, 126);
+    padding: 0px 35px;
+}
+.service img{
+    width: 70px;
+    margin: 35px 0px 0px 10.9rem;
+}
+
+.conatiner4{
+    position: absolute;
+    width: 100%;
+    color: rgb(18, 156, 126);
+    
+}
+.about{
+position: absolute;
+top: 150%;
+width: 100%;
+/* background-color: #000; */
+height: 20vw;
+}
+#about-text{
+    position: relative;
+    top: -85%;
+    right: -65%;
+    width: 25%;
+    text-align: justify;
+}
+#about-text h3{
+    color: rgb(18, 156, 126);
+    text-transform: capitalize;
+}
+#about-img{
+   position: relative;
+   display: inline-block;
+   left: 15%;
+   top: -156%;
+   color: rgb(18, 156, 126);
+}
+#about-color{
+    position: relative;
+    display: inline-block;
+    left: 0%;
+    background-color: rgb(18, 156, 126);
+    width: 27rem;
+    height: 30rem;
+}
+.container6{
+    position: absolute;
+    bottom: -200%;
+    width: 90%;
+    margin: 0px 7rem ;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer1 ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer ul li{
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style-type: none ;
+text-align: center;
+cursor: pointer;
+}
